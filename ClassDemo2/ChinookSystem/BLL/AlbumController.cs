@@ -27,7 +27,7 @@ namespace ChinookSystem.BLL
                               {
                                   Artist = x.Artist.Name,
                                   Title = x.Title,
-                                  ReleaseYear = int.Parse(x.ReleaseYear),
+                                  ReleaseYear = x.ReleaseYear,
                                   ReleaseLabel = x.ReleaseLabel
                               };
                 return results.ToList();

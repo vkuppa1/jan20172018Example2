@@ -19,9 +19,9 @@ namespace Chinook.Data.Entities
 
         public string Title { get; set; }
 
-        public int ArtsitId { get; set; }
+        public int ArtistId { get; set; }
 
-        public string ReleaseYear { get; set; }
+        public int ReleaseYear { get; set; }
         public string ReleaseLabel { get; set; }
         
         //Navigational Properties
