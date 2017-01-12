@@ -1,0 +1,12 @@
+C:\Users\vkuppa1\Documents\GitHub\jan20172018Example2\ClassDemo2\ChinookSystem\bin\Debug\ChinookSystem.dll.config
+C:\Users\vkuppa1\Documents\GitHub\jan20172018Example2\ClassDemo2\ChinookSystem\bin\Debug\ChinookSystem.dll
+C:\Users\vkuppa1\Documents\GitHub\jan20172018Example2\ClassDemo2\ChinookSystem\bin\Debug\ChinookSystem.pdb
+C:\Users\vkuppa1\Documents\GitHub\jan20172018Example2\ClassDemo2\ChinookSystem\bin\Debug\Chinook.Data.dll
+C:\Users\vkuppa1\Documents\GitHub\jan20172018Example2\ClassDemo2\ChinookSystem\bin\Debug\EntityFramework.dll
+C:\Users\vkuppa1\Documents\GitHub\jan20172018Example2\ClassDemo2\ChinookSystem\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\vkuppa1\Documents\GitHub\jan20172018Example2\ClassDemo2\ChinookSystem\bin\Debug\Chinook.Data.pdb
+C:\Users\vkuppa1\Documents\GitHub\jan20172018Example2\ClassDemo2\ChinookSystem\bin\Debug\EntityFramework.xml
+C:\Users\vkuppa1\Documents\GitHub\jan20172018Example2\ClassDemo2\ChinookSystem\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\vkuppa1\Documents\GitHub\jan20172018Example2\ClassDemo2\ChinookSystem\obj\Debug\ChinookSystem.csprojResolveAssemblyReference.cache
+C:\Users\vkuppa1\Documents\GitHub\jan20172018Example2\ClassDemo2\ChinookSystem\obj\Debug\ChinookSystem.dll
+C:\Users\vkuppa1\Documents\GitHub\jan20172018Example2\ClassDemo2\ChinookSystem\obj\Debug\ChinookSystem.pdb
