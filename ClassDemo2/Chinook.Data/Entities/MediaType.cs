@@ -4,7 +4,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-
 #region Additinal Namespaces
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
@@ -12,17 +11,14 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Chinook.Data.Entities
 {
-    [Table("Artists")]
-   public  class Artist
+    [Table("MediaType")]
+    public class MediaType
     {
         [Key]
-        public int ArtistId { get; set; }
-
+        public int MediaTypeId { get; set; }
         public string Name { get; set; }
-        
-        //navigational properties
-        //The virtual property albums point to all the children of the parent instance.
-        public virtual ICollection<Album> Albums { get; set; }  
+        //Navigation Properties
 
+        public virtual ICollection<Track> Tracks {get; set;}
     }
 }

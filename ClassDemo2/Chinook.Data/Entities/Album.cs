@@ -12,6 +12,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Chinook.Data.Entities
 {
+    [Table("Albums")]
     public class Album
     {
         [Key]
@@ -25,6 +26,7 @@ namespace Chinook.Data.Entities
         public string ReleaseLabel { get; set; }
         
         //Navigational Properties
+        //The virtual artist property points to a single parent.
         public virtual Artist Artist { get; set; }
     }
 }
