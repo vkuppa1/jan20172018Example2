@@ -8,7 +8,8 @@ using System.Threading.Tasks;
 using Chinook.Data.Entities;
 using ChinookSystem.DAL;
 using System.ComponentModel;
-using Chinook.data.POCOs;
+using Chinook.Data.POCOs;
+using Chinook.Data.DTOs;
 #endregion
 
 namespace ChinookSystem.BLL
@@ -32,7 +33,7 @@ namespace ChinookSystem.BLL
                               };
                 return results.ToList();
             }
-        }
+        }//EOM
 
 
         [DataObjectMethod(DataObjectMethodType.Select, false)]
@@ -48,6 +49,36 @@ namespace ChinookSystem.BLL
                                 .OrderByDescending(x => x.ReleaseYear);
                 return results.ToList();
             }
+        }   //EOM
+        [DataObjectMethod(DataObjectMethodType.Select, false)]
+        public List<AlbumArtistReleases> AlbumArtistRelease_List()
+        {
+            using (var context = new ChinookContext())
+            {
+                var results = from x in context.Albums
+                              group x by x.Artist.Name into result
+                              select new AlbumArtistReleases
+                              {
+                                  Artist = result.Key,
+                                  Albums = (from y in result
+                                            select new AlbumRelease
+                                            {
+                                                Title = y.Title,
+                                                RYear = y.ReleaseYear,
+                                                Label = y.ReleaseLabel
+                                            }).ToList()
+                              };
+                return results.ToList();
+            }
+
+
         }
+
+
     }
 }
+
+
+
+
+

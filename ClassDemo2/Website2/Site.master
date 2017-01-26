@@ -49,13 +49,14 @@
                     <a class="navbar-brand" runat="server" href="~/">Vamsee Chinnok Samples</a>
                 </div>
                 <div class="navbar-collapse collapse">
-                    <ul class="nav navbar-nav">
+                   <%-- <ul class="nav navbar-nav">
                         <li><a runat="server" href="~/">Home</a></li>
                         <li><a runat="server" href="~/About">About</a></li>
                         <li><a runat="server" href="~/Contact">Contact</a></li>
                          <li><a runat="server" href="~/Sample Pages/NavPropertySample">NavQuery</a></li>
                         <li><a runat="server" href="~/Sample Pages/SimpleParameterQuery">Parameter Query</a></li>
-                    </ul>
+                       <li><a runat="server" href="~/Sample Pages/RepeadeNestedRepeater">NestedRepeaters</a></li>
+                    </ul>--%>
                     <asp:LoginView runat="server" ViewStateMode="Disabled">
                         <AnonymousTemplate>
                             <ul class="nav navbar-nav navbar-right">
@@ -72,6 +73,34 @@
                             </ul>
                         </LoggedInTemplate>
                     </asp:LoginView>
+                    <!--It seems to have a properly alligned and working DDM
+                        the menu must be moved till  the LoginVire menu-->
+                     <asp:Menu ID="navMenu" runat="server"
+                        BackColor="#000000" BorderColor="Red"
+                        StaticMenuItemStyle-ForeColor="#999999"
+                         StaticMenuItemStyle-VerticalPadding="10px"
+                         StaticMenuItemStyle-HorizontalPadding="10px"
+                         RenderingMode="List" Orientation="Horizontal"
+                         DynamicMenuItemStyle-ForeColor="#999999"
+                         DynamicMenuStyle-BackColor="Black">
+                        <Items>
+                            <asp:MenuItem Text="Home" NavigateUrl="~/"></asp:MenuItem>
+
+                            <asp:MenuItem Text="Queries" Value="Queries">
+                                <asp:MenuItem Text="Nav Query" 
+                                    NavigateUrl="~/SamplePages/NavigationPropertySample.aspx"></asp:MenuItem>
+                                <asp:MenuItem Text="Parameter Query"
+                                     NavigateUrl="~/SamplePages/SimpleParameterQuery.aspx">
+                                </asp:MenuItem>
+                                <asp:MenuItem Text="Nested Repeaters"
+                                     NavigateUrl="~/Sample Pages/RepeadeNestedRepeater.aspx">
+                                </asp:MenuItem>
+                            </asp:MenuItem>
+
+                            <asp:MenuItem Text="About" NavigateUrl="~/About.aspx"></asp:MenuItem>
+                            <asp:MenuItem Text="Contact" NavigateUrl="~/Contact.aspx"></asp:MenuItem>
+                        </Items>
+                    </asp:Menu>
                 </div>
             </div>
         </div>

@@ -4,14 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+using Chinook.Data.DTOs;
+
 namespace Chinook.Data.POCOs
 {
-    public class AlbumArtist
+    public class AlbumRelease
     {
-        public string Artist { get; set; }
         public string Title { get; set; }
-        public int ReleaseYear { get; set; }
-        public string ReleaseLabel { get; set; }
-
+        public int RYear { get; set; }
+        public string Label { get; set; }
     }
 }

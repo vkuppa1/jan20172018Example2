@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 using Chinook.Data.Entities;
 using ChinookSystem.DAL;
 using System.ComponentModel;
-using Chinook.data.POCOs;
+using Chinook.Data.POCOs;
 #endregion
 namespace ChinookSystem.BLL
 {
