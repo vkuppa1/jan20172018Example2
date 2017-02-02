@@ -95,6 +95,9 @@
                                 <asp:MenuItem Text="Nested Repeaters"
                                      NavigateUrl="~/Sample Pages/RepeadeNestedRepeater.aspx">
                                 </asp:MenuItem>
+                                <asp:MenuItem Text="CRUD"
+                                     NavigateUrl="~/Sample Pages/CRUDReview.aspx">
+                                </asp:MenuItem>
                             </asp:MenuItem>
 
                             <asp:MenuItem Text="About" NavigateUrl="~/About.aspx"></asp:MenuItem>
