@@ -54,7 +54,7 @@ public partial class SamplePages_CRUDReview : System.Web.UI.Page
                 {
                     MessageUserControl.ShowInfo("Using Instructions",
                                                  "Select the desired album for the maintenece.");
-                    AlbumList.DataSource = AlbumList;
+                    AlbumList.DataSource = albumlist;
                     AlbumList.DataBind();
 
 
