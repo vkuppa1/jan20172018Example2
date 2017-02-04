@@ -45,7 +45,7 @@
                                 <asp:GridView ID="AlbumList" runat="server" AutoGenerateColumns="False" 
                                     OnSelectedIndexChanged="AlbumList_SelectedIndexChanged">
                                     <Columns>
-                                        <asp:CommandField ShowSelectButton="True"></asp:CommandField>
+                                        <asp:CommandField ShowSelectButton="True" ButtonType="Button"></asp:CommandField>
                                         <asp:TemplateField HeaderText="Title">
                                             <ItemTemplate>
                                                 <asp:Label Id="Title" runat="server" Text='<%# Eval("Title") %>'></asp:Label>

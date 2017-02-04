@@ -17,6 +17,8 @@ namespace ChinookSystem.BLL
     [DataObject]
     public class AlbumController
     {
+    
+
         [DataObjectMethod(DataObjectMethodType.Select, false)]
         public List<AlbumArtist> ListAlbumsbyArtist()
         {
@@ -85,6 +87,75 @@ namespace ChinookSystem.BLL
                 return results.ToList();
             }
         }
+        [DataObjectMethod(DataObjectMethodType.Select, false)]
+
+        public List<Album> Albums_List()
+        {
+            using (var context = new ChinookContext())
+            {
+                return context.Albums.ToList();
+            }
+        }
+
+        [DataObjectMethod(DataObjectMethodType.Select, false)]
+
+    public Album Albums_Get(int albumid)
+        {
+            using (var context = new ChinookContext())
+            {
+                return context.Albums.Find(albumid);
+            }
+        }
+        [DataObjectMethod(DataObjectMethodType.Select, false)]
+        public void Albums_Add(Album item)
+        {
+            using (var context = new ChinookContext())
+            {
+                context.Albums.Add(item);
+                context.SaveChanges();
+
+            }
+        }
+        [DataObjectMethod(DataObjectMethodType.Select, false)]
+
+        public void Albums_Update(Album item)
+        {
+            using (var context = new ChinookContext())
+            {
+                context.Albums.Attach(item);
+                item.ReleaseLabel = string.IsNullOrEmpty(item.ReleaseLabel) ? null : item.ReleaseLabel;
+
+                context.Entry(item).State = System.Data.Entity.EntityState.Modified;
+                //Use this to update the command for selected fields.
+                //context.Entry(instacevariablename).Property(y=>y.columnname)
+                context.SaveChanges();
+
+            }
+        }
+        [DataObjectMethod(DataObjectMethodType.Delete, false)]
+        public void Albums_Delete(Album item)
+        {
+            Albums_Delete(item.AlbumId);
+        }
+
+       
+
+        public void Albums_Delete(int albumid)
+        {
+            using (var context = new ChinookContext())
+            {
+                //Use any business rules.
+                var existing = context.Albums.Find(albumid);
+                if (existing == null)
+                {
+                    throw new Exception("It does not exists.");
+                }
+                context.Albums.Remove(existing);
+                context.SaveChanges();
+            }
+        }
+
+        
     }
 }
 
