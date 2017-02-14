@@ -2,3 +2,10 @@ C:\Users\vkuppa1\Documents\GitHub\jan20172018Example2\ClassDemo2\Chinook.Data\bi
 C:\Users\vkuppa1\Documents\GitHub\jan20172018Example2\ClassDemo2\Chinook.Data\bin\Debug\Chinook.Data.pdb
 C:\Users\vkuppa1\Documents\GitHub\jan20172018Example2\ClassDemo2\Chinook.Data\obj\Debug\Chinook.Data.dll
 C:\Users\vkuppa1\Documents\GitHub\jan20172018Example2\ClassDemo2\Chinook.Data\obj\Debug\Chinook.Data.pdb
+C:\Users\vkuppa1\Documents\GitHub\jan20172018Example2\ClassDemo2\Chinook.Data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\vkuppa1\Documents\GitHub\jan20172018Example2\ClassDemo2\Chinook.Data\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\vkuppa1\Documents\GitHub\jan20172018Example2\ClassDemo2\Chinook.Data\bin\Debug\EntityFramework.dll
+C:\Users\vkuppa1\Documents\GitHub\jan20172018Example2\ClassDemo2\Chinook.Data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\vkuppa1\Documents\GitHub\jan20172018Example2\ClassDemo2\Chinook.Data\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\vkuppa1\Documents\GitHub\jan20172018Example2\ClassDemo2\Chinook.Data\bin\Debug\EntityFramework.xml
+C:\Users\vkuppa1\Documents\GitHub\jan20172018Example2\ClassDemo2\Chinook.Data\obj\Debug\Chinook.Data.csprojResolveAssemblyReference.cache

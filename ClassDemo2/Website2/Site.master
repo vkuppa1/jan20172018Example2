@@ -88,15 +88,15 @@
 
                             <asp:MenuItem Text="Queries" Value="Queries">
                                 <asp:MenuItem Text="Nav Query" 
-                                    NavigateUrl="~/SamplePages/NavigationPropertySample.aspx"></asp:MenuItem>
+                                    NavigateUrl="~/SamplePages/NavPropertySample.aspx"></asp:MenuItem>
                                 <asp:MenuItem Text="Parameter Query"
                                      NavigateUrl="~/SamplePages/SimpleParameterQuery.aspx">
-                                </asp:MenuItem>
+                                </asp:MenuItem>s
                                 <asp:MenuItem Text="Nested Repeaters"
-                                     NavigateUrl="~/Sample Pages/RepeadeNestedRepeater.aspx">
+                                     NavigateUrl="~/SamplePages/RepeadeNestedRepeater.aspx">
                                 </asp:MenuItem>
                                 <asp:MenuItem Text="CRUD"
-                                     NavigateUrl="~/Sample Pages/CRUDReview.aspx">
+                                     NavigateUrl="~/SamplePages/CRUDReview.aspx">
                                 </asp:MenuItem>
                             </asp:MenuItem>
 

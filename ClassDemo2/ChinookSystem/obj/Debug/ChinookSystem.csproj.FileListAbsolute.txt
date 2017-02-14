@@ -10,3 +10,7 @@ C:\Users\vkuppa1\Documents\GitHub\jan20172018Example2\ClassDemo2\ChinookSystem\b
 C:\Users\vkuppa1\Documents\GitHub\jan20172018Example2\ClassDemo2\ChinookSystem\obj\Debug\ChinookSystem.csprojResolveAssemblyReference.cache
 C:\Users\vkuppa1\Documents\GitHub\jan20172018Example2\ClassDemo2\ChinookSystem\obj\Debug\ChinookSystem.dll
 C:\Users\vkuppa1\Documents\GitHub\jan20172018Example2\ClassDemo2\ChinookSystem\obj\Debug\ChinookSystem.pdb
+C:\Users\vkuppa1\Documents\GitHub\jan20172018Example2\ClassDemo2\ChinookSystem\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\vkuppa1\Documents\GitHub\jan20172018Example2\ClassDemo2\ChinookSystem\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\vkuppa1\Documents\GitHub\jan20172018Example2\ClassDemo2\ChinookSystem\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\vkuppa1\Documents\GitHub\jan20172018Example2\ClassDemo2\ChinookSystem\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
